@@ -33,3 +33,5 @@ jobs:
           heroku_app_name: "shrouded-bayou-66629"
           heroku_email: "ram_idts@me.com"
           procfile: "web: npm run start-prod"
+          healthcheck: "https://shrouded-bayou-66629.herokuapp.com/health"
+          checkstring: "ok"
